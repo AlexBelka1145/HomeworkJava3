@@ -4,9 +4,9 @@ public class Main {
         BmiService service = new BmiService();
         int weight = 77; //масса в кг.
         double height = 1.70; //рост в метрах
-        double index = service.calculate(weight,height);
+        double index = service.calculate(weight, height);
 
 
-        System.out.println((int)index);
+        System.out.println((int) index);
     }
 }
